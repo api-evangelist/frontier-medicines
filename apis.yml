@@ -1,7 +1,31 @@
 aid: frontier-medicines
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/frontier-medicines.png
 name: Frontier Medicines
-description: Frontier Medicines is a company surfaced as a portfolio company of dcvc and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Frontier Medicines is a clinical-stage biopharmaceutical company pioneering
+  the discovery and development of small-molecule covalent drugs against
+  disease-causing proteins long considered undruggable. Its proprietary Frontier
+  Platform pairs chemoproteomics with artificial intelligence and machine
+  learning and a proprietary Druggability Atlas that maps thousands of novel
+  covalent binding opportunities across the human proteome. Lead precision
+  oncology candidates include FMC-376 (KRAS G12C), FMC-220 (a p53 Y220C
+  reactivator), and FMC-242 (PI3Kalpha-RAS). Founded in 2018 with offices in
+  Boston, Massachusetts and South San Francisco, California, the company is
+  backed by DCVC and other life-science investors. Frontier Medicines was added
+  to the API Evangelist network as a DCVC portfolio company; it publishes no
+  public API or developer surface, so this profile captures company identity
+  only.
 url: https://raw.githubusercontent.com/api-evangelist/frontier-medicines/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +35,44 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
+- Biopharmaceutical
+- Drug Discovery
+- Oncology
+- Precision Medicine
+- Covalent Chemistry
+- Chemoproteomics
+- Artificial Intelligence
+- Life Sciences
 apis: []
+common:
+- type: Website
+  url: https://www.frontiermeds.com/
+- type: About
+  url: https://www.frontiermeds.com/about/
+- type: Blog
+  url: https://www.frontiermeds.com/newsroom/
+- type: Careers
+  url: https://www.frontiermeds.com/careers/
+- type: Support
+  url: https://www.frontiermeds.com/contact/
+- type: PrivacyPolicy
+  url: https://www.frontiermeds.com/privacy-policy/
+- type: TermsOfService
+  url: https://www.frontiermeds.com/terms-of-use/
+- type: LinkedIn
+  url: https://www.linkedin.com/company/frontier-medicines/
+- type: Twitter
+  url: https://x.com/frontiermeds
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
